@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Breve excursión hacia la teoría de Galois - parte 0</title>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async
+          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
+</head>
+<body>
+
+<h1>  Breve excursión hacia la teoría de Galois. </h1>
+  
+  
+  
+  <h2> Parte 0. </h2>
+  
+  
+  <h3>  Prefacio.</h3>
+  
+  
+  <p> Este texto esta pensado para aquellos estudiantes que por medio de la divulgación o por mera 
+    coincidencia se hallan enterado de la existencia de la teoría de Galois y quisieran 
+    tener un primer contacto del tema sin caer en el formalismo , dificultad y extensión que 
+    tienen la mayoría de material (libros , vídeos , incluso cursos formales) sobre el tema.  </p>
+  
+  
+  <p> He tratado de que el texto sea asequible para cualquier estudiante de bachillerato (preparatoria) , 
+    aunque cualquier estudiante avanzado de educación secundaria (de séptimo a noveno grado).
+    Aunque siendo mas concreto , lo único que se pide es tener soltura a la hora de trabajar con 
+    polinomios (así como algunos hechos básicos sobre ellos) , y tener buenas nociones de la 
+    teoría de conjuntos (definición de conjunto y funciones).   </p>
+  
+  <p> Por lo comentado anteriormente (y con el fin de ser mas directo) no voy a incluir alguna 
+    introducción histórica sobre el tema , o alguna otra cosa que no se haya dicho ya en la
+    divulgación o que sea vox populli. Así que la exposición considerara lo anterior como echo conocido. </p>
+  
+  <p> Cabe recalcar que este texto no es una novela , por lo que no puede leerse muy a la ligera. 
+    Para que realmente se puede aprender algo de este escrito (y de cualquier material relacionado a 
+    matemáticas o física) es necesario leerlo con bastante calma , entendiendo palabra por palabra , 
+    teniendo un lápiz y algo con que escribir a la mano. Como se vera ya en el texto , los problemas son 
+    el corazón de las matemáticas , de estos podemos saber que tanto comprendemos un tema y además de que 
+    son la forma mas poderosa en la que podemos aprender matemáticas , por ello incluí varios ejercicios al 
+    final de las secciones.   </p>
+  
+  <p> Otra advertencia que me gustaría añadir es que este escrito NO es para aprender sobre el tema 
+    (para eso en la sección de referencias se pueden consultar material adecuado). Como el nombre lo sugiere 
+    , este trabajo es solo un recorrido por el área , con mas precisión , el texto es solo un resumen/exposición
+    de los temas que se ven de forma común en cualquier curso de licenciatura que cubra teoría de Galois. </p>
+  
+  
+  <p> Esta entrada sera no mas que un repaso "formal" de echos conocidos sobre polinomios y presentando otros de la misma 
+  natureleza , los lectores mas avanzados podrían bien pasar a la siguiente entrada.</p>  
+  
+ <p> Vamos a comenzar explorando un poco mas el contexto de donde se motiva la teoría de Galois.</p>
+  
+  
+  
+  <p> Recordemos que un polinomio \(f(x)\) en una variable \(x\) es una expresión de la forma  </p>
+  
+    \[f(x)=a_n x^n + a_{n-1} x^{n-1} + \cdots + a_{1}x+a_{0}\]
+  
+  <p> donde \(a_n,\cdots , a_0\) son números y \(n\) es un entero positivo. </p>
+  
+  <p> Si \(a_n \neq 0\) diremos que el polinomio tiene grado \(n\) , con \(\text{deg}(f)\) denotamos al grado
+  del polinomio \(f(x)\). Un polinomio es constante si su unico termino es \(a_0\) , ademas si \(a_n=1\) diremos que
+  es monico.</p>
+  
+  <p>  Podemos sumar y multiplicar polinomios , si tenemos los polinomios </p>
+  
+  \[p(x)=a_nx^n + a_{n-1}x^{n-1}+\cdots +a_1 x + a_0\]
+  
+  \[q(x)=b_nx^n+ b_{n-1}x^{n-1}+\cdots +b_1 x + b_0\]
+  
+  <p> con \(n\geq m\). Definimos su suma como  </p>
+  
+  \[(p+q)(x)=a_n x^n +\cdots + a_{m+1}x^{m+1} +(a_m + b_m)x^m + \cdots + (a_2+b_2)x^2 + (a_1+b_1)x+(a_0+b_0) \]
+  
+  
+  <p>  </p>
+  
+<p> La pregunta de donde la teoría de Galois se motiva es : Dado un polinomio \(f(x)\) en una variable \(x\)  </p>
+  
+  \[f(x)=a_n x^n + a_{n-1} x^{n-1} + \cdots + a_{1}x+a_{0}\]
+  
+  <p> ¿Como podemos encontrar sus raíces? , o lo que es lo mismo , como hallar soluciones a la ecuación. 
+    Recordemos que \(\alpha\) es una  raíz (solución) del polinomio \(f\) si \(f(\alpha)=0\).</p>
+  
+  
+</body>
+</html>
+
+
+
+
